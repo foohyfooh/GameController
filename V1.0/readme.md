@@ -1,6 +1,6 @@
 # Game Controller Design Version 1.0
 
-The main idea is to make a PC controller using [Arduino Nano 33 BLE](https://store-usa.arduino.cc/products/arduino-nano-33-ble), [random buttons](https://www.adafruit.com/product/1489) and [analog sticks](https://www.adafruit.com/product/512) based on the designs below.
+The main idea is to make a PC controller using [Arduino Nano 33 BLE](https://store-usa.arduino.cc/products/arduino-nano-33-ble), [random buttons](https://www.adafruit.com/product/367) and [analog sticks](https://www.adafruit.com/product/512) based on the designs below.
 
 ## Design
 ### Circuit
@@ -20,8 +20,11 @@ Exported from [buttons.drawio](buttons.drawio)
 
 ## Parts
 - [Arduino Nano 33 BLE](https://store-usa.arduino.cc/products/arduino-nano-33-ble)
-- [Tactile Switch Buttons](https://www.adafruit.com/product/1489)
+- [Tactile Switch Buttons](https://www.adafruit.com/product/367)
+- [Slim Tactile Switch Buttons](https://www.adafruit.com/product/1489)
+- [Vertical Tactile Switch Buttons](https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3F-3100/368365)
 - [Analog 2-Axis Thumb Joystick with Select Button](https://www.adafruit.com/product/512)
+- [Round Force-Sensitive Resistor](https://www.adafruit.com/product/166)
 
 ## Tool Used
 - [Circuit Diagram Web Editor](https://www.circuit-diagram.org/editor/)
