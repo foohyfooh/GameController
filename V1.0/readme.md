@@ -25,6 +25,7 @@ Exported from [buttons.drawio](buttons.drawio)
 - [Vertical Tactile Switch Buttons](https://www.digikey.com/en/products/detail/omron-electronics-inc-emc-div/B3F-3100/368365)
 - [Analog 2-Axis Thumb Joystick with Select Button](https://www.adafruit.com/product/512)
 - [Round Force-Sensitive Resistor](https://www.adafruit.com/product/166)
+- [Resistors](https://www.adafruit.com/product/2781)
 
 ## Tool Used
 - [Circuit Diagram Web Editor](https://www.circuit-diagram.org/editor/)
