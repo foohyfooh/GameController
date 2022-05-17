@@ -15,7 +15,7 @@ Exported from [schematic.json](schematic.json)
 
 
 ### PCB
-The [PCB](PCB.json) designed from schematic is also included with the [Gerber](Gerber) files. It most likely doesn't follow best practices for routing connections and needs to be tested.
+The [PCB](pcb.json) designed from schematic is also included with the [Gerber](Gerber) files. It most likely doesn't follow best practices for routing connections and needs to be tested.
 - The intention is that the pads meant for the Arduino line up with the pins on the board and can be used without having to solder it.
 - Later work needs to be done to directly connect a nRF52840 microcontroller instead of the whole Arduino board.
 
