@@ -26,6 +26,11 @@ Exported from [buttons.drawio](../V1.0/buttons.drawio)
 - The button holes are meant to be able to be turned 45° clockwise to switch from Nintendo layout to Xbox layout.
 - The size of the holes should be different so that even if it looks similar the wrong button shouldn't able to go in the wrong hole.
 
+## Code
+Use [Matthew Heironimus'](https://github.com/MHeironimus) [Arduino Joystick Library](https://github.com/MHeironimus/ArduinoJoystickLibrary) to make [the Arduino Sketch](code/code.ino) that will act as the firmware for the controller.
+
+*Note: Currently I don't have an Arduino Nano 33 BLE available so I am using an Arduino Leonardo to test my code.*
+
 ## Parts
 - [Arduino Nano 33 BLE](https://store-usa.arduino.cc/products/arduino-nano-33-ble)
 - [Tactile Switch Buttons](https://www.adafruit.com/product/367)
@@ -38,3 +43,4 @@ Exported from [buttons.drawio](../V1.0/buttons.drawio)
 ## Tool Used
 - [EasyEDA](https://easyeda.com/)
 - [diagrams.net](https://app.diagrams.net/)
+- [Arduino IDE](https://www.arduino.cc/en/software)

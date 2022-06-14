@@ -11,6 +11,7 @@ This is the first iteration of the controller design based on my limited electro
 ## [V1.1 - Intial Revision](V1.1)
 - [Readme](V1.1/readme.md)
 - [Schematic](V1.1/schematic.png)
+- [Code](V1.1/code/code.ino)
 
 This is the second iteration updated with feedback from coworkers from my inital version.
 
@@ -18,5 +19,6 @@ This is the second iteration updated with feedback from coworkers from my inital
 - [Readme](V1.2/readme.md)
 - [Controller Schematic](V1.2/schematic-Controller.png)
 - [Power Schematic](V1.2/schematic-Power.png)
+- [Code](V1.2/code/code.ino)
 
 This is the third iteration where I added in a voltage regulator component.
