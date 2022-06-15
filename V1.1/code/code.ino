@@ -201,7 +201,7 @@ void loop() {
   #else
   lastAnalogState[4] = map(lastAnalogState[4], LIB_MIN, LIB_MAX, LIB_MIN, LIB_MAX / 2);
   lastAnalogState[5] = map(lastAnalogState[5], LIB_MIN, LIB_MAX, LIB_MIN, LIB_MAX / 2);
-  int stickValue = map(512 + lastAnalogState[4] - lastAnalogState[5], LIB_MIN + 1, LIB_MAX - 1, LIB_MIN, LIB_MAX);
+  int stickValue = map(512 + lastAnalogState[4] - lastAnalogState[5], LIB_MIN + 1, LIB_MAX, LIB_MIN, LIB_MAX);
   joystick.setZAxis(stickValue);
   #endif
 
