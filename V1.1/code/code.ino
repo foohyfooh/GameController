@@ -14,8 +14,8 @@
 #if USE_HAT
 // Buttons
 const int NUM_BUTTONS = 10;
-int pinToButton    [NUM_BUTTONS] = {  0,   2,   4,   3,  12,  11,       5,        6,  13,     1};
-String buttonName  [NUM_BUTTONS] = {"A", "B", "X", "Y", "L", "R", "Start", "Select", "L3", "R3"};
+int pinToButton    [NUM_BUTTONS] = {  0,   2,   4,   3,  12,  11,        6,       5,  13,     1};
+String buttonName  [NUM_BUTTONS] = {"A", "B", "X", "Y", "L", "R", "Select", "Start", "L3", "R3"};
 int lastButtonState[NUM_BUTTONS] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 
 // D-Pad
@@ -29,8 +29,8 @@ int lastHatAngle = -1;
 #else
 // Buttons
 const int NUM_BUTTONS = 14;
-int pinToButton    [NUM_BUTTONS] = {  0,   2,   4,   3,  12,  11,       5,        6,  13,     1,    7,       8,      9,     10};
-String buttonName  [NUM_BUTTONS] = {"A", "B", "X", "Y", "L", "R", "Start", "Select", "L3", "R3", "Up", "Right", "Down", "Left"};
+int pinToButton    [NUM_BUTTONS] = {  0,   2,   4,   3,  12,  11,        6,       5,  13,     1,    7,       8,      9,     10};
+String buttonName  [NUM_BUTTONS] = {"A", "B", "X", "Y", "L", "R", "Select", "Start", "L3", "R3", "Up", "Right", "Down", "Left"};
 int lastButtonState[NUM_BUTTONS] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 
 const int NUM_HATS  = 0;
