@@ -86,7 +86,7 @@ int constrain_map(long x, long oldRangeMin, long oldRangeMax, long newRangeMin, 
 }
 
 void setup() {
-  #if !DEBUG
+  #if DEBUG
   // Initialise Serial Connection
   Serial.begin(115200);
   #endif
