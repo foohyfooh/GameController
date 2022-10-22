@@ -12,7 +12,7 @@ Exported from [schematic.json](schematic.json)
 - The L2 and R2 buttons are analog while the rest of them should be digital. The L2 and R2 inputs would be using potentiometers which will require a turning mechanism when the button is pushed.
 
 ### PCB
-The [PCB](pcb.json) designed from schematic is also included with the [Gerber](Gerber) files. It most likely doesn't follow best practices for routing connections and needs to be tested.
+The [PCB](pcb.json) designed from schematic is also included with the [Gerber](Gerber) files. It most likely doesn't follow best practices for routing connections but has been tested and does work.
 - The intention is that the female headers allow for the Arduino to be attacched to the board without having to solder it.
 - Later work needs to be done to directly connect the Arduino's microcontroller directly instead of the whole Arduino board.
 
